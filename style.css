@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* header part  */
+.heaer{
+    width: 100%;
+    background-color: #22c3a3;
+    color: white;
+}
+.heaer .logo{
+    margin-left: 10px;
+    display: inline-block;
+    padding: 20px;
+}
+.header-menu{
+    display: inline-block;
+}
+.header-menu ul{
+    padding: 20px;  
+    margin-left: 569px;
+
+}
+.header-menu ul li{
+    display: inline-block;
+
+}
+.header-menu ul li a{
+    display: inline-block;
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* banner part  */
+.banner{
+    background-image: url(./header-bg01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 593px;
+    text-align: center ;
+    color: white;
+}
+.banner h1 {
+    padding-top: 230px;
+    display: inline-block;
+    font-size: 50px ;
+}
+.banner p{
+    padding-top: 15px;
+    font-size: 14px;
+}
+.banner button{
+    padding: 10px;
+    margin-top: 41px;
+    background: #22c3a3;
+    border: 1px solid white;
+}
+.banner button a{
+    text-decoration: none;
+    color: #ddd;
+}
+
+
+/* SERVICE part  */
+.SERVICE{
+    border-bottom: 2px solid #08be99;
+    height: 430px;
+}
+.SERVICE-HEADER{ 
+    margin-top: 80px;
+}
+.SERVICE-HEADER h3{
+    text-align: center;
+    font-size: 30px;
+}
+.SERVICE-HEADER p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.SERVICE .service-part{
+    margin: 100px 0 0 40px;
+    position: relative;
+
+}
+.SERVICE .service-part .card{
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.SERVICE .service-part .web-design {
+    position: absolute;
+    top: 0px;
+    left: 95px;
+}
+.SERVICE .service-part .Graphic-Design {
+    position: absolute;
+    top: 0px;
+    left: 361px;
+}
+.SERVICE .service-part .App-development {
+    position: absolute;
+    top: 0px;
+    left: 637px;
+}
+.SERVICE .service-part .Digital-markating {
+    position: absolute;
+    top: 0px;
+    left: 892px;
+}
+.SERVICE .service-part .card i{
+    color: #0dbf9b;
+    font-size: 30px;
+}
+.SERVICE .service-part .card h4{
+    color:#5f5f5f ;
+    margin-top: 10px;
+}
+.SERVICE .service-part .card p{
+    color: #6e6e6e;
+    margin-top: 5px;
+}
+
+
+
+
+/* about part  */
+.about{
+    margin-top: 50px;
+    color: #5f5f5f;
+}
+.about .about-header{
+    text-align: center;
+}
+.about .about-header h4{
+    font-size: 25px;
+    margin: 50px 0 15px 0;
+    color: #5f5f5f;
+}
+.about .about-header p{
+    font-size: 13px;
+}
+.about .about2{
+    position: relative;
+    margin:40px 30px ;
+}
+.about .about2 .about-img{
+    display: inline-block;
+}
+.about .about2 .about-img img{
+    height: 250px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.about .about2 .about-contain{
+    display: inline-block;
+    width: 600px;
+    margin-left: 50px;
+}
+
+.about .about2 .about-contain h5{
+    margin: 10px 0;
+    font-size: 18px;
+}
+.about .about2 .about-contain p{
+    font-size: 14px;
+}
+
+
+
+/* contact part  */
+.contact{
+    color: #5f5f5f;
+    padding-top: 70px;
+    position: relative;
+    height: 280px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.contact .contsct-header{
+    text-align: center;
+}
+.contact .contsct-header h2{
+    color:#545454 ;
+}
+.contact .contsct-header p{
+    margin: 20px 0 30px 0;
+}
+.contact .adders {
+    position: absolute;
+    top: 208px;
+    left: 285px;
+}
+.contact .mail {
+    position: absolute;
+    top: 209px;
+    left: 589px;
+}
+.contact .phone{
+    position: absolute;
+    top: 200px;
+    left: 914px;
+}
+.contact i{
+    color: #0dbf9b;
+}
+.footer {
+    background-color: #0dbf9b;
+    text-align: center;
+
+}
+.icon{
+    font-weight: 400;
+}
+
+/* footer  */
+.footer i{
+    padding:15px ;
+    color: white;
+}
+
+
+/* copy right  */
+.copy{
+    text-align: center;
+    background-color: #222222;
+    color: #525252;
+    padding: 10px 0;
+    font-size: 11px;
+}
